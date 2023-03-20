@@ -6,20 +6,22 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat-Bold';
 }
 
-h2{
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 p {
     color: #8f8f8f;
 }
+
+/*heading*/
 
 .big-heading{
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #title {
@@ -78,6 +80,10 @@ p {
     z-index: 1;
 }
 
+.feature-tile{
+    font-size: 1.5rem;
+}
+
 .feature-box{
     text-align: center;
     padding: 4%;
@@ -100,6 +106,11 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image{
@@ -126,6 +137,11 @@ p {
 .card-header{
     background-color: #ef8172; 
     color: #fff;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #pricing{
@@ -161,11 +177,7 @@ p {
     padding: 7% 15%;
     text-align: center;
 }
-.cta-heading{
-    font-family: "Montserrat-bold";
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
+
 
 /* footer */
 #footer{
